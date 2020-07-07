@@ -1,0 +1,19 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: spring-cloud-consumer
+  cloud:
+    inetutils:
+      ignored-interfaces:
+        - docker0
+        - veth.*
+      preferred-networks:
+        - eth0
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
