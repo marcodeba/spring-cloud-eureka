@@ -8,6 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
+//@RibbonClient(name = "spring-cloud-producer", configuration = MyRuler.class)
 public class SpringCloudConsumerApplication {
 
     public static void main(String[] args) {

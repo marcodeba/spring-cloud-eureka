@@ -14,7 +14,6 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     serviceUrl:
-      # 默认注册地址 this.serviceUrl.put("defaultZone", "http://localhost:8761/eureka/");
       defaultZone: http://localhost:8000/eureka/
       # 从 Eureka 服务器端获取注册信息的间隔时间（默认：30秒）
     registry-fetch-interval-seconds: 5
