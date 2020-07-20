@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb9e65ba-3a7c-4c89-9cbc-2a283c23661f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/configuration/MyRuler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-producer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-producer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/SpringCloudConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/SpringCloudConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/configuration/MyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/configuration/MyConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/service/IHelloRemoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/service/IHelloRemoteService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,49 +38,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/controller/HelloController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/controller/ConsumerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="77" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/SpringCloudConsumerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-consumer/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -96,9 +61,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>spring-cloud-producer</find>
-      <find>ri</find>
-      <find>feign</find>
       <find>loadbalancerclient</find>
       <find>execute()</find>
       <find>execute(</find>
@@ -124,8 +86,11 @@
       <find>renew()</find>
       <find>refreshInstanceInfo</find>
       <find>public void notify</find>
-      <find>run()</find>
       <find>@Loa</find>
+      <find>run()</find>
+      <find>@EnableDiscoveryClient</find>
+      <find>@RibbonClient</find>
+      <find>spring-cloud-producer</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com</dir>
@@ -160,14 +125,16 @@
         <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/springcloud/ruler/MyRuler.java" />
         <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/IHelloRemoteService.java" />
         <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/configuration/MyConfiguration.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/SpringCloudConsumerApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-producer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-producer/src/main/java/com/panning/springcloudproducer/SpringCloudProducerApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-server/src/main/java/com/panning/springcloudeurekaserver/SpringCloudEurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/configuration/MyConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/configuration/MyRuler.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/SpringCloudConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/service/IHelloRemoteService.java" />
       </list>
     </option>
   </component>
@@ -219,165 +186,6 @@
             <path>
               <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloudconsumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloudconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloudconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloudeurekaserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloudproducer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloudproducer" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -522,7 +330,7 @@
       <workItem from="1594793853698" duration="242000" />
       <workItem from="1594797766985" duration="11645000" />
       <workItem from="1594879949914" duration="3146000" />
-      <workItem from="1595045775867" duration="1257000" />
+      <workItem from="1595045775867" duration="6997000" />
     </task>
     <task id="LOCAL-00001" summary="add hystrix">
       <created>1594091516410</created>
@@ -545,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594799088350</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update server name">
+      <created>1595204832781</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595204832781</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -554,7 +369,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73310000" />
+    <option name="totallyTimeSpent" value="79050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -643,7 +458,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add hystrix" />
     <MESSAGE value="add myruler" />
-    <option name="LAST_COMMIT_MESSAGE" value="add myruler" />
+    <MESSAGE value="update server name" />
+    <option name="LAST_COMMIT_MESSAGE" value="update server name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -658,27 +474,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/com/netflix/loadbalancer/PollingServerListUpdater.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.7.RELEASE/spring-web-5.2.7.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="442" column="35" lean-forward="true" selection-start-line="442" selection-start-column="35" selection-end-line="442" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.7.RELEASE/spring-web-5.2.7.RELEASE.jar!/org/springframework/http/client/AbstractBufferingClientHttpRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.2.3.RELEASE/spring-cloud-commons-2.2.3.RELEASE.jar!/org/springframework/cloud/client/loadbalancer/ServiceRequestWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -795,20 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.2.3.RELEASE/spring-cloud-netflix-eureka-client-2.2.3.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="335" column="31" selection-start-line="335" selection-start-column="23" selection-end-line="335" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.2.3.RELEASE/spring-cloud-netflix-eureka-client-2.2.3.RELEASE.jar!/org/springframework/cloud/netflix/eureka/CloudEurekaClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.21/eureka-client-1.9.21.jar!/com/netflix/discovery/shared/transport/EurekaHttpResponse.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -837,13 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.21/eureka-client-1.9.21.jar!/com/netflix/discovery/shared/transport/jersey/AbstractJerseyEurekaHttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.21/eureka-client-1.9.21.jar!/com/netflix/appinfo/InstanceInfo.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -852,20 +626,6 @@
             <element signature="e#16379#16380#0" expanded="true" />
             <element signature="e#16459#16460#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.21/eureka-client-1.9.21.jar!/com/netflix/discovery/DiscoveryClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="940" column="43" selection-start-line="940" selection-start-column="43" selection-end-line="940" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.21/eureka-client-1.9.21.jar!/com/netflix/discovery/InstanceInfoReplicator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="96" column="9" lean-forward="true" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -950,48 +710,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/configuration/MyConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-          </folding>
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/service/IHelloRemoteService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.2.3.RELEASE/spring-cloud-netflix-eureka-client-2.2.3.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="197">
+          <caret line="335" column="29" selection-start-line="335" selection-start-column="29" selection-end-line="335" selection-end-column="29" />
         </state>
       </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.2.3.RELEASE/spring-cloud-netflix-eureka-client-2.2.3.RELEASE.jar!/org/springframework/cloud/netflix/eureka/CloudEurekaClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.21/eureka-client-1.9.21.jar!/com/netflix/discovery/InstanceInfoReplicator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="109" column="44" selection-start-line="109" selection-start-column="44" selection-end-line="109" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.21/eureka-client-1.9.21.jar!/com/netflix/discovery/DiscoveryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="585" column="70" selection-start-line="585" selection-start-column="70" selection-end-line="585" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.21/eureka-client-1.9.21.jar!/com/netflix/discovery/shared/transport/jersey/AbstractJerseyEurekaHttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/src/main/java/com/panning/springcloudeurekaserver/SpringCloudEurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-producer/src/main/java/com/panning/springcloudproducer/SpringCloudProducerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -999,6 +766,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-producer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/configuration/MyConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/configuration/MyRuler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-producer/src/main/java/com/panning/springcloudproducer/SpringCloudProducerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/hystrix/HelloRemoteHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/service/IHelloRemoteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1012,17 +834,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-producer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/controller/ConsumerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="77" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#520#521#0" expanded="true" />
@@ -1031,20 +846,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/SpringCloudConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-consumer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-consumer/src/main/java/com/panning/springcloudconsumer/SpringCloudConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
