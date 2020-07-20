@@ -17,6 +17,6 @@ public class ConsumerController {
 
     @GetMapping("/test/{name}")
     public String test(@PathVariable("name") String name) {
-        return restTemplate.getForObject("http://spring-cloud-producer/hello/" + name, String.class);
+        return restTemplate.getForObject("http://spring-cloud-eureka-producer/hello/" + name, String.class);
     }
 }

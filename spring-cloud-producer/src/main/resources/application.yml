@@ -2,7 +2,7 @@ server:
   port: 9000
 spring:
   application:
-    name: spring-cloud-producer
+    name: spring-cloud-eureka-producer
   cloud:
     inetutils:
       ignored-interfaces:

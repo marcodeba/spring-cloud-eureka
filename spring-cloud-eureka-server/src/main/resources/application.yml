@@ -19,4 +19,4 @@ eureka:
     registry-fetch-interval-seconds: 5
 spring:
   application:
-    name: spring-cloud-eureka
+    name: spring-cloud-eureka-server
