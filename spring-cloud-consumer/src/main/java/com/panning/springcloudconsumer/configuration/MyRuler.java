@@ -1,12 +1,31 @@
 package com.panning.springcloudconsumer.configuration;
 
-import com.netflix.loadbalancer.IRule;
-import com.netflix.loadbalancer.RandomRule;
+import com.netflix.client.config.IClientConfig;
+import com.netflix.loadbalancer.*;
 import org.springframework.context.annotation.Bean;
 
-public class MyRuler {
-    @Bean
-    public IRule rule() {
-        return new RandomRule();
+import java.util.List;
+
+//public class MyRuler {
+//    @Bean
+//    public IRule rule() {
+//        return new RandomRule();
+//    }
+//}
+
+public class MyRuler extends AbstractLoadBalancerRule {
+
+    @Override
+    public void initWithNiwsConfig(IClientConfig iClientConfig) {
+
+    }
+
+    @Override
+    public Server choose(Object o) {
+        ILoadBalancer loadBalancer = getLoadBalancer();
+        List<Server> reachableServers = loadBalancer.getReachableServers();
+
+        // 永远选择最后一台可达服务器
+        return reachableServers.isEmpty() ? null : (reachableServers.get(reachableServers.size() - 1));
     }
 }

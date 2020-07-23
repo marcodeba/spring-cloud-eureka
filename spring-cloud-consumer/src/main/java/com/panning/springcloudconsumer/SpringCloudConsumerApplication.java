@@ -10,7 +10,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
-@RibbonClient(name = "spring-cloud-eureka-producer", configuration = MyRuler.class)
+@RibbonClient(name = "spring-cloud-eureka-producer", configuration = MyRuler.class)// 指定目标应用名称
 public class SpringCloudConsumerApplication {
 
     public static void main(String[] args) {
