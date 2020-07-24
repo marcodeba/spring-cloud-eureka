@@ -8,7 +8,7 @@ import java.util.List;
 
 //public class MyRuler {
 //    @Bean
-//    public IRule rule() {
+//    public IRule myRule() {
 //        return new RandomRule();
 //    }
 //}
