@@ -2,7 +2,6 @@ package com.panning.springcloudconsumer.configuration;
 
 import com.netflix.client.config.IClientConfig;
 import com.netflix.loadbalancer.*;
-import org.springframework.context.annotation.Bean;
 
 import java.util.List;
 

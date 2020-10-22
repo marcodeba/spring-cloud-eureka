@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-eureka" />
         <module name="spring-cloud-consumer" />
+        <module name="spring-cloud-config-server" />
         <module name="spring-cloud-eureka-server" />
         <module name="spring-cloud-producer" />
       </profile>
@@ -15,6 +16,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-cloud-config-server" options="-parameters" />
       <module name="spring-cloud-consumer" options="-parameters" />
       <module name="spring-cloud-eureka-server" options="-parameters" />
       <module name="spring-cloud-producer" options="-parameters" />
